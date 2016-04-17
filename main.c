@@ -46,11 +46,10 @@ int main(int argc, char *argv[])
 
         while (i < argc) {
             collection[i] = argv[i];
-            printf("%s\n", collection[i]);
             i++;
         }
 
-        printf("%d\n", binary_search(collection, target));
+        printf("Selected item's index: %d\n", binary_search(collection, target));
     }
 
     return 0;
